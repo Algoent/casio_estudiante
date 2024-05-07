@@ -655,7 +655,9 @@ section {
 .contact a{
   color: #fff;
   text-decoration: none;
-  padding-top: 10px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background: rgba(0,0,0,0.5);
 }
 .contact a:hover{
   color: #fff;
@@ -1006,6 +1008,11 @@ section {
   margin: 0 2px;
 }
 
+@media (max-width: 545px) {
+  .contact a{
+    font-size: 12px;
+  }
+}
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
